@@ -20,7 +20,7 @@ body {
   margin: 1em 0;
   text-align: left;
   box-shadow: 1em 1em 4em black;
-  border-radius: 1.5em;
+  border-radius: 0.5em;
 }
 .news-lead {
   text-align: center;
@@ -31,4 +31,28 @@ body {
 /* newly added */
 .news-story {
   padding: 0 1em 0 1em;
+}
+
+.more-story{
+  display: block;
+  text-decoration: none;
+  background-color: #bdecfa;
+  color: rgb(36, 35, 35);
+  padding: 0 11em 0.5em 10em;
+  margin: 0 0 0.5em 0;
+}
+
+.pagination li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 0 0 1em;
+}
+
+.page{
+  text-decoration: none;
+  color: rgb(18, 20, 11);
+}
+
+.active-page{
+  color: rgb(238, 100, 8);
 }
