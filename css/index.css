@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background-color: lightgrey;
+  font-family: 'Noto Serif JP', serif;
 }
 .stories {
   text-align: center;
@@ -10,10 +18,15 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align: left;
 }
 .news-lead {
   text-align: center;
 }
 .news-img {
   max-width: 100%;
+}
+/* newly added */
+.news-story {
+  padding: 0 1em 0 1em;
 }
