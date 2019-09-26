@@ -19,6 +19,8 @@ body {
   max-width: 30em;
   margin: 1em 0;
   text-align: left;
+  box-shadow: 1em 1em 4em black;
+  border-radius: 1.5em;
 }
 .news-lead {
   text-align: center;
