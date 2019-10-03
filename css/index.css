@@ -11,10 +11,11 @@ body {
 }
 .stories {
   text-align: center;
-  display: grid;
+  max-width: 30em;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
-  margin: 0 25em 0 25em;
+  margin: 0 25em 0 25em; */
 }
 .news {
   background-color: white;
@@ -69,4 +70,54 @@ body {
 
 .active-page{
   color: rgb(238, 100, 8);
+}
+
+@media screen and (min-width: 40em) {
+	
+	body {
+    background-color: tomato;
+    
+  }
+
+  .humber-heading{
+    text-align: left;
+  }
+
+  .stories {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0 auto;
+    /* max-width: 20em; */
+  }
+
+}
+
+@media screen and (min-width: 80em) {
+
+	body { 
+    background-color: orange;
+  }
+
+  .humber-heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .stories {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    /* to stop the max size */
+    max-width: 100em;
+  }
+
+}
+
+@media screen and (min-width: 100em) {
+
+	body { 
+    background-color: lightgreen;
+  }
+
 }
